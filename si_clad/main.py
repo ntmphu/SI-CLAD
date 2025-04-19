@@ -1,6 +1,6 @@
 import numpy as np
-import util
-import parametric
+from . import util
+from . import parametric
 
 class InvalidOutlierSetError(Exception):
     pass

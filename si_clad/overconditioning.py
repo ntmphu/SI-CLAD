@@ -1,6 +1,6 @@
 import numpy as np
 import numpy as np
-import util
+from . import util
 
 
 def compute_z_interval(j_test, n, d, eps, neps, a, c, minusO, x_zk):

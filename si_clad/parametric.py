@@ -1,7 +1,7 @@
 import numpy as np
-import DBSCAN
-import util
-import overconditioning
+from . import DBSCAN
+from . import util
+from . import overconditioning
 
 
 def run_parametric_dbscan(j, n, d, minpts, eps, a, c, z_min = -20, z_max = 20):
