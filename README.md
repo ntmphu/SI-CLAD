@@ -35,5 +35,17 @@ p_value = SI_CLAD(X, Sigma, minpts, eps, O, j = None) #randomly choose an outlie
 print(p_value)
 
 ```
+## Reproducibility
 
+Explore our collection of Jupyter notebooks for hands-on demonstrations of the si-clad package in action.
+
+- Example for computing $p$-value for Cluster-based Anomaly Detection
+```
+>> ex1_compute_pvalue.ipynb
+```
+
+- Check the uniformity of the $p$-values of Cluster-based Anomaly Detection under the null hypothesis $H_0$
+```
+>> ex2_validity_of_pvalue.ipynb
+```
 
