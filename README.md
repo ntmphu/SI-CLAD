@@ -4,7 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
-This package provides a Statistical Inference framework for Cluster-based Anomaly Detection, with controllable FPR. In particular, we propose a valid p-value for testing the anomaly results obtained by DBSCAN algorithm. Basically, the problem is decomposed into multiple tractable sub-problems to enable an efficient test with the highest TPR while controlling the FPR through the divide-and-conquer approach. 
+This package provides a Statistical Inference framework for Cluster-based Anomaly Detection, with controllable FPR. In particular, we propose a valid p-value for testing the anomaly results obtained by DBSCAN algorithm. Basically, the problem is decomposed into multiple tractable sub-problems to enable an efficient test with the highest TPR while controlling the FPR through the divide-and-conquer approach. For more details, please refer to the paper at: https://arxiv.org/abs/2504.18633
 
 This package has the following requirements:
 
